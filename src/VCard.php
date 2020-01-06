@@ -1,9 +1,9 @@
 <?php
 
-namespace JeroenDesloovere\VCard;
+namespace bcariveau\VCard;
 
 /*
- * This file is part of the VCard PHP Class from Jeroen Desloovere.
+ * This file is part of the VCard PHP Class from Jeroen Desloovere forked to bcariveau.
  *
  * For the full copyright and license information, please view the license
  * file that was distributed with this source code.
@@ -521,7 +521,7 @@ class VCard
     {
         // init string
         $string = "BEGIN:VCARD\r\n";
-        $string .= "VERSION:3.0\r\n";
+        $string .= "VERSION:2.1\r\n";
         $string .= "REV:" . date("Y-m-d") . "T" . date("H:i:s") . "Z\r\n";
 
         // loop all properties
